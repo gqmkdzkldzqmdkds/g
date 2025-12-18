@@ -1718,7 +1718,7 @@ h.addVelocity(-Math.sin(this.yaw) * g * .5, .1, -Math.cos(this.yaw) * g * .5);
 						const mesh = new Mesh(new boxGeometryDump(1, 2, 1));
 						mesh.material.depthTest = false;
 						mesh.material.transparent = true;
-						mesh.material.opacity = 0.5;
+						mesh.material.opacity = 0.2;
 						mesh.material.color.set(255, 0, 0);
 						mesh.renderOrder = 6;
 						game.gameScene.ambientMeshes.add(mesh);
